@@ -93,8 +93,8 @@ export default function ProductsPage() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">{t('allConditions')}</SelectItem>
-                  <SelectItem value="like-new">{t('likeNew')}</SelectItem>
-                  <SelectItem value="gently-used">{t('gentlyUsed')}</SelectItem>
+                  <SelectItem value="like-new">{t('vintage')}</SelectItem>
+                  <SelectItem value="gently-used">{t('vintage')}</SelectItem>
                   <SelectItem value="vintage">{t('vintage')}</SelectItem>
                 </SelectContent>
               </Select>

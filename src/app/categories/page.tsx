@@ -24,7 +24,7 @@ export default function CategoriesPage() {
               <CardHeader className="p-0">
                 <div className="aspect-video relative overflow-hidden">
                   <Image
-                    src={category.image}
+                    src={category.image} // Ini akan mengambil path yang benar dari data `categories`
                     alt={category.name}
                     width={600}
                     height={400}

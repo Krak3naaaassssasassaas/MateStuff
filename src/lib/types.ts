@@ -6,7 +6,7 @@ export type Product = {
   price: number;
   image: string;
   category: 'Apparel' | 'Jewelry' | 'Accessories' | string; // Allow for other strings but suggest these
-  condition: 'like-new' | 'gently-used' | 'vintage';
+  condition: 'like-new' | 'gently-used' | 'vintage'| 'likeNew' | 'gentlyUsed'; 
   size?: 'S' | 'M' | 'L' | 'XL' | 'One Size';
   color?: string;
   rating: number;

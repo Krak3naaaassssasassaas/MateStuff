@@ -88,9 +88,9 @@ export const products: Product[] = [
   {
     id: "beaded-bracelet-set",
     name: "Beaded Bracelet Set",
-    description: "A set of three colorful beaded bracelets. Adds a bohemian touch to any outfit.",
+    description: "A set of beaded bracelets. Adds a bohemian touch to any outfit.",
     price: 150000,
-    image: "/asset/Beaded Bracelet set.avif",
+    image: "/asset/Beaded Bracelet.avif",
     category: "Jewelry",
     condition: "like-new",
     size: "One Size",
